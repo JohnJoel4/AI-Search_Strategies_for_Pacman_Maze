@@ -82,9 +82,7 @@ In game development, search algorithms are fundamental for creating AI that can 
 These techniques are widely applicable across different types of games, from maze navigation to resource collection and beyond. Search algorithms provide the backbone for game AI, enabling characters to think and plan. By using BFS, DFS, UCS, and A*, we can solve problems in a variety of ways, balancing between solution optimality and computational efficiency, depending on the game's requirements.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 **HOW TO TEST AND EXPERIENCE THE ALGORITHMS**
-
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Follow below steps:**
@@ -96,8 +94,9 @@ These techniques are widely applicable across different types of games, from maz
 **C)** Navigate to the project folder in your terminal or command prompt.
 
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **TESTING EACH ALGORITHMS USING COMMANDS**
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 You can test and experience how Pacman navigates the mazes using different algorithms by running the following commands. 
 
