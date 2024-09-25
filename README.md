@@ -21,7 +21,7 @@ B) Explores each branch to its deepest point.
 C) Backtracks when no further moves are possible.
 D) Uses a stack data structure to manage unvisited nodes.
    
-**3. Breadth First Search (BFS)**
+**2. Breadth First Search (BFS)**
 
 BFS explores the maze level by level, ensuring that Pacman finds the shortest path to the goal in terms of steps. It expands the shallowest unvisited node first, making it ideal for finding optimal solutions in unweighted graphs.
 BFS is widely used for pathfinding problems in grid-based games or environments where the shortest path is desired.
@@ -32,7 +32,7 @@ A) Explores all nodes at the present depth level before moving on to nodes at th
 B) Uses a queue to maintain the order of exploration.
 C) Guarantees the shortest path in terms of the number of actions.
 
-**4. Uniform Cost Search (UCS)**
+**3. Uniform Cost Search (UCS)**
 
 UCS expands nodes based on the total cost from the start, ensuring that Pacman always follows the least-cost path to the goal. Unlike BFS, UCS takes path costs into account, making it optimal for finding the least-cost solution.
 UCS is crucial in game development where certain paths have different costs, like terrains with varying difficulty. It ensures that Pacman finds the path with the lowest overall cost, even if it's longer.
@@ -43,7 +43,7 @@ A) Expands the node with the lowest cumulative cost from the start.
 B) Uses a priority queue where nodes are prioritized based on their cost.
 C) Guarantees the optimal path in terms of the total cost.
 
-**5. A*** **Search** **(A*** **)**
+**4. A*** **Search** **(A*** **)**
 
 A* combines the advantages of UCS with a heuristic that estimates the cost to reach the goal. This results in faster and more efficient searches. Pacman uses A* to reach the goal while considering both the cost to get there and an estimate of the remainingdistance.
 A* is the go-to algorithm for pathfinding in most games because it provides an optimal solution efficiently. It’s widely used in game development for navigation, enabling game characters to find optimal routes while minimizing computational overhead.
@@ -54,22 +54,22 @@ A) Expands nodes based on the sum of the cost to reach them and an estimate of t
 B) Uses a priority queue, where nodes are prioritized by their combined cost and heuristic value.
 C) Guarantees the optimal path as long as the heuristic is admissible (doesn’t overestimate the cost).
 
-**7. Corners Problem**
+**5. Corners Problem**
 
 In this problem, Pacman must visit all four corners of the maze. The challenge lies in optimizing the path so Pacman doesn’t revisit unnecessary areas. This is solved using BFS combined with state tracking to remember which corners Pacman has visited.
 Solving this problem efficiently involves designing a search algorithm that tracks visited states, an essential technique in AI for managing complex navigation tasks.
 
-**9. Corners Heuritstics**
+**6. Corners Heuritstics**
 
 This heuristic improves the Corners Problem by estimating the cost to visit all remaining corners. By using A* with this heuristic, Pacman can find a more efficient route through the corners.
 Heuristics like this are widely applicable in optimizing search problems in games, reducing the number of explored nodes and thus improving performance.
 
-**11. Food Search Problem**
+**7. Food Search Problem**
 
 The objective here is to find the optimal path for Pacman to eat all the dots on the map. This problem introduces additional complexity as Pacman must plan an efficient route to clear the board. A* is again used, this time with a heuristic that helps Pacman navigate toward the remaining dots.
 This showcases how search algorithms and heuristics can be applied to more advanced problems like resource collection in games.
 
-**13. Closest-Dot Search(Suboptimal Search)**
+**8. Closest-Dot Search(Suboptimal Search)**
 
 This is a greedy search strategy where Pacman always moves toward the closest dot, without regard for overall efficiency. While not optimal, it’s an example of a simpler, faster solution for less complex problems
 
