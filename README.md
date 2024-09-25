@@ -93,6 +93,8 @@ These techniques are widely applicable across different types of games, from maz
 
 **C)** Navigate to the project folder in your terminal or command prompt.
 
+
+
 **TESTING EACH ALGORITHMS USING COMMANDS**
 
 You can test and experience how Pacman navigates the mazes using different algorithms by running the following commands. 
@@ -142,6 +144,14 @@ python pacman.py -l trickySearch -p AStarFoodSearchAgent
 **8) Closest-Dot Search (Suboptimal Search):**
 
 python pacman.py -l bigSearch -p ClosestDotSearchAgent -z 0.5
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**PLAY THE GAME**
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+You can play a fun game by running the pacman.py file using the command:
+
+python pacman.py
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **CONCLUSION**
