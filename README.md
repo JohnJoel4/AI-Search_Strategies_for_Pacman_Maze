@@ -93,9 +93,9 @@ These techniques are widely applicable across different types of games, from maz
 
 **C)** Navigate to the project folder in your terminal or command prompt.
 
-**Testing Each Algorithm**
+**TESTING EACH ALGORITHMS USING COMMANDS**
 
-You can test and experience how Pacman navigates the mazes using different algorithms by running the following **commands**. 
+You can test and experience how Pacman navigates the mazes using different algorithms by running the following commands. 
 
 Each command launches the Pacman game using a specified algorithm and environment:
 
