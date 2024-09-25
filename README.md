@@ -74,29 +74,28 @@ This showcases how search algorithms and heuristics can be applied to more advan
 This is a greedy search strategy where Pacman always moves toward the closest dot, without regard for overall efficiency. While not optimal, it’s an example of a simpler, faster solution for less complex problems
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**Impact of Search Algorithms in Game AI**
+**The Role of Search Algorithms in Game Development**
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-In game development, search algorithms are fundamental for creating AI that can navigate dynamic environments, make decisions, and solve problems. The algorithms implemented in this project directly impact the ability of game characters like Pacman to find optimal paths, avoid obstacles, and complete objectives efficiently. 
+In game development, search algorithms are fundamental for creating AI that can navigate dynamic environments, make decisions, and solve problems. The algorithms implemented in this project directly impact the ability of game characters like Pacman to find optimal paths, avoid ghosts, and complete objectives efficiently. 
 
-These techniques are widely applicable across different types of games, from maze navigation to resource collection and beyond.
-Search algorithms provide the backbone for game AI, enabling characters to think and plan. By using BFS, DFS, UCS, and A*, we can solve problems in a variety of ways, balancing between solution optimality and computational efficiency, depending on the game's requirements.
+These techniques are widely applicable across different types of games, from maze navigation to resource collection and beyond. Search algorithms provide the backbone for game AI, enabling characters to think and plan. By using BFS, DFS, UCS, and A*, we can solve problems in a variety of ways, balancing between solution optimality and computational efficiency, depending on the game's requirements.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**How to Test and Experience the Algorithms**
+**HOW TO TEST AND EXPERIENCE THE ALGORITHMS*
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Prerequisites:**
+**Follow below steps:**
 
-A) Install Python on your system.
+**A)** Install Python on your system.
 
-B) Clone or download this repository to your local machine.
+**B)** Clone or download this repository to your local machine.
 
-C) Navigate to the project folder in your terminal or command prompt.
+**C)** Navigate to the project folder in your terminal or command prompt.
 
 **Testing Each Algorithm**
 
-You can test and experience how Pacman navigates the mazes using different algorithms by running the following commands. 
+You can test and experience how Pacman navigates the mazes using different algorithms by running the following **commands**. 
 
 Each command launches the Pacman game using a specified algorithm and environment:
 
@@ -147,5 +146,4 @@ python pacman.py -l bigSearch -p ClosestDotSearchAgent -z 0.5
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **CONCLUSION**
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 This project demonstrates the power of search algorithms in game AI, showing how Pacman can intelligently navigate through mazes using classic AI techniques. By implementing and testing various search algorithms, you can explore how different strategies affect Pacman's performance and decision-making. Whether you’re solving simple mazes or optimizing paths through more complex environments, these algorithms form the foundation for intelligent navigation in games.
