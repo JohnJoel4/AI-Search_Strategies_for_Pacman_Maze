@@ -43,7 +43,7 @@ A) Expands the node with the lowest cumulative cost from the start.
 B) Uses a priority queue where nodes are prioritized based on their cost.
 C) Guarantees the optimal path in terms of the total cost.
 
-**5.** **A*** **Search** **(A*** **)**
+**5. A*** **Search** **(A*** **)**
 
 A* combines the advantages of UCS with a heuristic that estimates the cost to reach the goal. This results in faster and more efficient searches. Pacman uses A* to reach the goal while considering both the cost to get there and an estimate of the remainingdistance.
 A* is the go-to algorithm for pathfinding in most games because it provides an optimal solution efficiently. It’s widely used in game development for navigation, enabling game characters to find optimal routes while minimizing computational overhead.
@@ -82,7 +82,9 @@ In game development, search algorithms are fundamental for creating AI that can 
 These techniques are widely applicable across different types of games, from maze navigation to resource collection and beyond. Search algorithms provide the backbone for game AI, enabling characters to think and plan. By using BFS, DFS, UCS, and A*, we can solve problems in a variety of ways, balancing between solution optimality and computational efficiency, depending on the game's requirements.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**HOW TO TEST AND EXPERIENCE THE ALGORITHMS*
+
+**HOW TO TEST AND EXPERIENCE THE ALGORITHMS**
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Follow below steps:**
